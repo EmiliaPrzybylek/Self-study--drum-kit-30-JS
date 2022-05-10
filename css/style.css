@@ -59,7 +59,19 @@ html {
 
 body {
   font-family: "Radio Canada", sans-serif;
-  color: white;
+  color: #2E4D69;
+}
+
+.keys {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.key {
+  padding: 10px;
+  border: 1px solid #78614F;
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

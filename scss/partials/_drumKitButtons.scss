@@ -1,0 +1,13 @@
+@use 'variables' as v;
+
+.keys {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.key {
+    padding: v.$font-base;
+    border: 1px solid v.$key-border-color;
+    border-radius: 2px;
+}
