@@ -1,7 +1,8 @@
-@use 'variables' as *;
+@use 'variables' as v;
 
 html {
-    font-size:  $font-base;
+    font-size:  v.$font-base;
+    background: url(../../assets/img/drums_background.jpg) fixed center/cover;
 }
 
 body {

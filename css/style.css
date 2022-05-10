@@ -54,6 +54,7 @@ table {
 
 html {
   font-size: 10px;
+  background: url(../../assets/img/drums_background.jpg) fixed center/cover;
 }
 
 body {
