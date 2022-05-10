@@ -1,7 +1,7 @@
 @use 'variables' as v;
 
 html {
-    font-size:  v.$font-base;
+    font-size:  v.$font-base * 2;
     background: url(../../assets/img/drums_background.jpg) fixed center/cover;
 }
 
