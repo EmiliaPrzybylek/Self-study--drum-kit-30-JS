@@ -1,0 +1,10 @@
+@use 'variables' as v;
+
+
+@for $i from 1 through v.$num-elements {
+    .keys div:nth-child(#{$i}) {
+        transform: rotate(v.$rot * 1deg) translate(v.$radius/2) rotate(v.$rot * -1deg);
+    }
+
+    v.$rot: v.$rot + v.$angle
+}
