@@ -89,6 +89,7 @@ body {
 
 .key kbd {
   color: #78614F;
+  font-weight: bold;
 }
 
 .keys div:nth-child(1) {
