@@ -33,6 +33,5 @@
 
 .playing {
     transform: scale(1.1);
-    border-color: red;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 50px v.$key-border-color;
 }

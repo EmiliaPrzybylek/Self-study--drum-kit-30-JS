@@ -95,8 +95,7 @@ body {
 
 .playing {
   transform: scale(1.1);
-  border-color: red;
-  box-shadow: 0 0 10px red;
+  box-shadow: 0 0 50px #78614F;
 }
 
 .keys div:nth-child(1) {
