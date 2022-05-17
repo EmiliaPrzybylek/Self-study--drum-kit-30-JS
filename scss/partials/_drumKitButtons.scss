@@ -23,9 +23,16 @@
     align-items: center;
     border: v.$key-border solid v.$key-border-color;
     border-radius: 50%;
+    transition: all 0.07s;
 }
 
 .key kbd {
     color: v.$key-border-color;
     font-weight: bold;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 10px red;
 }

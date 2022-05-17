@@ -85,11 +85,18 @@ body {
   align-items: center;
   border: 1px solid #78614F;
   border-radius: 50%;
+  transition: all 0.07s;
 }
 
 .key kbd {
   color: #78614F;
   font-weight: bold;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: red;
+  box-shadow: 0 0 10px red;
 }
 
 .keys div:nth-child(1) {
