@@ -94,7 +94,8 @@ body {
 }
 
 .playing {
-  transform: scale(1.1);
+  transform: scale(2);
+  border-color: #78614F;
   box-shadow: 0 0 50px #78614F;
 }
 
