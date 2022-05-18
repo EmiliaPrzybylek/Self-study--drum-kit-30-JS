@@ -11,8 +11,7 @@ function playSound(e) {
 
 function removeTransition(e) {
     if(e.propertyName !== 'box-shadow') return;
-    console.log(e.propertyName);
-
+    this.classList.remove('playing');
 }
 
 const keys = document.querySelectorAll('.key');

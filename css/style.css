@@ -96,7 +96,7 @@ body {
 .playing {
   transform: scale(1.1);
   border-color: #78614F;
-  box-shadow: 0 0 80px #78614F;
+  box-shadow: 0 0 90px #78614F;
 }
 
 .keys div:nth-child(1) {
