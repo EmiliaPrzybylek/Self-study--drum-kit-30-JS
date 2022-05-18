@@ -7,13 +7,12 @@ function playSound(e) {
     audio.currentTime = 0;
     audio.play();
     key.classList.add('playing')
-    console.log(key);
 }
 
 function removeTransition(e) {
-    console.log(e);
-    // if (e.propertyName !== 'transform') return;
-    // this.classList.remove('playing');
+    if(e.propertyName !== 'box-shadow') return;
+    console.log(e.propertyName);
+
 }
 
 const keys = document.querySelectorAll('.key');
@@ -21,4 +20,3 @@ keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 window.addEventListener('keydown', playSound);
 
-//Nie usuwa się stylowanie
