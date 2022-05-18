@@ -83,9 +83,9 @@ body {
   top: 50%;
   margin: -60px;
   padding: 2px;
+  transition: all 0.1s;
   border: 1px solid #78614F;
   border-radius: 50%;
-  transition: all 0.1s;
 }
 
 .key kbd {
@@ -94,7 +94,6 @@ body {
 }
 
 .playing {
-  transform: scale(1.1);
   border-color: #78614F;
   box-shadow: 0 0 90px #78614F;
 }
