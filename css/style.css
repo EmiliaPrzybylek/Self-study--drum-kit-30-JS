@@ -62,6 +62,15 @@ body {
   color: #2E4D69;
 }
 
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-165%, -50%);
+}
+
 .keys {
   position: absolute;
   left: 50%;

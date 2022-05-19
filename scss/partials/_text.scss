@@ -1,0 +1,10 @@
+@use 'variables' as v;
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: v.$radius;
+    height: v.$radius;
+    transform: translate(-165%, -50%);
+}
