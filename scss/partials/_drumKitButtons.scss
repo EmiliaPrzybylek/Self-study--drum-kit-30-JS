@@ -7,6 +7,9 @@
     width: v.$radius;
     height: v.$radius;
     transform: translate(-165%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .key {
