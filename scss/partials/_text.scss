@@ -1,7 +1,7 @@
 @use 'variables' as v;
 
 .text {
-    width: v.$radius/2;
+    width: 200px;
     text-align: center;
     color: rgb(v.$font-color, .6);
 }
