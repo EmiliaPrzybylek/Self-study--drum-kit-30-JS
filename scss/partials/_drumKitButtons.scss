@@ -27,6 +27,7 @@
     transition: all .10s;
     border: v.$key-border solid v.$key-border-color;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .key kbd {

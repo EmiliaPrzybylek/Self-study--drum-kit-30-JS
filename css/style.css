@@ -95,6 +95,7 @@ body {
   transition: all 0.1s;
   border: 1px solid #78614F;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .key kbd {
